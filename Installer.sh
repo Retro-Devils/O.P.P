@@ -20,6 +20,11 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
 }
 
 function install() {
+echo "Installing MPV Player"
+if sudo apt-get --simulate install mpv; then sudo apt-get install -y mpv; else
+	echo "Unable to install mpv, please update your system (\"sudo apt-get update && sudo apt-get upgrade\") and then try running this script again!"
+	exit; fi
+sleep 2
 echo "Setting up Files and Folders"
 sleep 5 
 clear
