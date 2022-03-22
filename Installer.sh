@@ -37,24 +37,30 @@ sleep 2
 clear
 mkdir ~/backups
 sudo mv es_systems.cfg ~/backups/es_systems.old
-clear
-#                                       #
-# USER CHOICE TO EDIT ES SYSTEMS OR NOT #
-#                                       #
+clear 
+--yesno "Would You Like To Overwrite ES Systems Config?" 0 0 )
+then edit-yes 
+else edit-no
+}
 
-cd
+function edit-yes() {
+wget . . . . . . . . .. . . es-systems.cfg
 echo "Installing MPV"
 sudo apt-get -y install mpv
-sleep 5
-clear
-echo "Device will now reboot, dont for get to put some .avi .mp4 .mov .mpv files in your videos roms folder."
-sleep 5
-clear
-echo "Thanks for using. Have Fun"
 sleep 2
+echo " Install Complete! Rebooting Now" 
+sleep 5
 sudo reboot now
 }
 
+function edit-no() {
+echo "Installing MPV"
+sudo apt-get -y install mpv
+sleep 2
+echo " Install Complete! Rebooting Now" 
+sleep 5
+sudo reboot now
+}
 
 function movie-info() { 
 ### mesage box info ###
