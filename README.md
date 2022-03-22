@@ -27,5 +27,5 @@ This uses omxplayer and (maybe) qjoypad.
 
 Omx plays videos and qjoy maps a keyboard to controller.
 
-Retropie of course launches the videos. This 
+Retropie of course launches the videos.
 
