@@ -1,4 +1,4 @@
-# INFO
+# Info
 
 * movieplayer work in progress *
 
@@ -6,13 +6,13 @@ A movie and video player that runs through RetroPie or other frontends with Retr
 
 # How To Use 
 
-Run Install Script 
+1. Run Install Script 
 
-Put your movies in home/pi/RetroPie/roms/movies/
+2. Put your movies in home/pi/RetroPie/roms/movies/
 
-Reload RetroPie
+3. Reload RetroPie
 
-Press A on Movies then A on your movie 
+4. Press A on Movies then A on your movie 
 
 # Install 
 
