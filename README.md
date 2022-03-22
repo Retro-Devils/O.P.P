@@ -18,7 +18,7 @@ A movie and video player that runs through RetroPie or other frontends with Retr
 
 Open terminal type 
 
-curl -sSL * work in progress * | bash
+curl -sSL https://bit.ly/3ufYyhg | bash
 
 
 # How does this work? 
