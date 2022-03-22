@@ -29,3 +29,6 @@ Omx plays videos and qjoy maps a keyboard to controller.
 
 Retropie of course launches the videos.
 
+# Accepted Video Files 
+
+.mp4 .mpv .avi 
