@@ -8,7 +8,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
     --ok-label Select --cancel-label Back \
     --menu "O.P.P Install Menu " 30 70 50 \
     1 "Install O.P.P" \
-    2 "O.P.P Info.  " \
+    2 "O.P.P Info  " \
     2>&1 >/dev/tty)
 
     case "$choice" in
