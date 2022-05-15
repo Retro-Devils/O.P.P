@@ -6,14 +6,14 @@ local choice
 while true
 do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
     --ok-label Select --cancel-label Back \
-    --menu "MoviePlayer Install Menu " 30 70 50 \
-    1 "Install MoviePlayer" \
-    2 "MoviePlayer Info.  " \
+    --menu "O.P.P Install Menu " 30 70 50 \
+    1 "Install O.P.P" \
+    2 "O.P.P Info.  " \
     2>&1 >/dev/tty)
 
     case "$choice" in
     1) install ;;
-    2) movie-info ;;
+    2) romp-info ;;
     *) break ;;
     esac
   done
@@ -28,16 +28,13 @@ sleep 2
 echo "Setting up Files and Folders"
 sleep 5 
 clear
-cd /opt/retropie/configs
-sudo mkdir video
-cd video
-sudo wget https://raw.githubusercontent.com/Retro-Devils/movieplayer/main/video/emulators.cfg
+cd $HOME/RetroPie/roms/
+mkdir movies
+sudo chmod -R 777 movies
 cd
-cd /home/pi/RetroPie/roms
-sudo mkdir videos
-sudo chmod -R 777 videos
-cd
-sudo chown -R pi:pi /home/pi/RetroPie/roms
+
+#### I STOPPED HERE ######
+####
 sleep 2
 clear
 if [ ! -s "/opt/retropie/configs/all/emulationstation/es_systems.cfg" ]; then sudo rm -f /opt/retropie/configs/all/emulationstation/es_systems.cfg; fi
@@ -53,8 +50,10 @@ fi
 }
 
 function movie-info() { 
-### mesage box info ###
-echo "do somthine here!"
+dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
+O.P.P stands for OmxPlayer Pi 
+- OPP plays movies from RetroPie 
+- Thats it add movies to ...roms/movies/ and enjoy " 0 0
 }
 
 installer-menu
