@@ -40,6 +40,7 @@ sudo chmod 755 /usr/local/bin/OPP
 sleep 1
 
 #### DEVIL 2 STOPPED HERE ####
+##<command>OPP %ROM%<command>
 sleep 2
 clear
 if [ ! -s "/opt/retropie/configs/all/emulationstation/es_systems.cfg" ]; then sudo rm -f /opt/retropie/configs/all/emulationstation/es_systems.cfg; fi
