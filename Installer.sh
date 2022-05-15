@@ -38,8 +38,8 @@ cd
 sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
 sudo chmod 755 /usr/local/bin/OPP
 sleep 1
-#### I STOPPED HERE ######
-####
+
+#### DEVIL 2 STOPPED HERE ####
 sleep 2
 clear
 if [ ! -s "/opt/retropie/configs/all/emulationstation/es_systems.cfg" ]; then sudo rm -f /opt/retropie/configs/all/emulationstation/es_systems.cfg; fi
@@ -52,13 +52,14 @@ else
 	cat $HOME/temp > /opt/retropie/configs/all/emulationstation/es_systems.cfg
 	rm -f $HOME/temp
 fi
+### STILL GOT NOTHING ###
 }
 
 function movie-info() { 
 dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
-O.P.P stands for OmxPlayer Pi 
+- O.P.P stands for Omx Player Pi 
 - OPP plays movies from RetroPie 
-- Add your movies to ...roms/movies/
+- Add your movies to .../roms/movies/
 - Enjoy!!" 0 0
 }
 
