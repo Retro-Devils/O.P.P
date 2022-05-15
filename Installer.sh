@@ -53,7 +53,8 @@ function movie-info() {
 dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
 O.P.P stands for OmxPlayer Pi 
 - OPP plays movies from RetroPie 
-- Thats it add movies to ...roms/movies/ and enjoy " 0 0
+- Add your movies to ...roms/movies/
+- Enjoy!!" 0 0
 }
 
 installer-menu
