@@ -20,22 +20,24 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
 }
 
 function install() {
-echo "Setting up Files and Folders"
+echo "Downloading & Setting up Files & Folders"
 sleep 3
 clear
 cd $HOME/RetroPie/roms/
 mkdir movies
 sudo chmod -R 777 movies
+sleep 1
 cd
 mkdir OPP
 cd OPP
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
 chmod 755 -R $HOME/OPP
+sleep 1
 cd
 sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
 sudo chmod 755 /usr/local/bin/OPP
-
+sleep 1
 #### I STOPPED HERE ######
 ####
 sleep 2
