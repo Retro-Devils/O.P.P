@@ -1,8 +1,8 @@
-# R.O.M.P Info
+# O.P.P Info
 
-- R.O.M.P stands for RetroPie OMX Movie Player.
+- .O.P.P stands for Omx Player Pi.
 
-- R.O.M.P launches movies with joystick support right from RetropPie
+- .O.P.P launches movies with joystick support right from RetropPie
 
 # How To Use 
 
@@ -44,4 +44,4 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 # Credits 
 
-HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would nt be possible without him .
+HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would not be possible without him .
