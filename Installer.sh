@@ -20,7 +20,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
 }
 
 function install() {
-echo "Downloading & Setting up Files & Folders"
+echo "Installing O.P.P Now "
 sleep 3
 clear
 cd $HOME/RetroPie/roms/
@@ -58,7 +58,7 @@ fi
 function opp-info() { 
 dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
 - O.P.P stands for Omx Player Pi 
-- OPP plays movies from RetroPie 
+- O.P.P plays movies from RetroPie 
 - Add your movies to .../roms/movies/
 - Enjoy!!" 0 0
 }
