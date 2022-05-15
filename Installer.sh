@@ -13,25 +13,28 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
 
     case "$choice" in
     1) install ;;
-    2) romp-info ;;
+    2) opp-info ;;
     *) break ;;
     esac
   done
 }
 
 function install() {
-echo "Installing MPV Player"
-if sudo apt-get --simulate install mpv; then sudo apt-get install -y mpv; else
-	echo "Unable to install mpv, please update your system (\"sudo apt-get update && sudo apt-get upgrade\") and then try running this script again!"
-	exit; fi
-sleep 2
 echo "Setting up Files and Folders"
-sleep 5 
+sleep 3
 clear
 cd $HOME/RetroPie/roms/
 mkdir movies
 sudo chmod -R 777 movies
 cd
+mkdir OPP
+cd OPP
+wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
+wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
+chmod 755 -R $HOME/OPP
+cd
+sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
+sudo chmod 755 /usr/local/bin/OPP
 
 #### I STOPPED HERE ######
 ####
