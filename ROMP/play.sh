@@ -1,1 +1,0 @@
-omxplayer "$(cat /dev/shm/temp.vid)" > /dev/null 2>&1
