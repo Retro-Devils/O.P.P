@@ -1,8 +1,8 @@
-# Info
+# R.O.M.P Info
 
-* movieplayer work in progress *
+- R.O.M.P stands for RetroPie OMX Movie Player.
 
-A movie and video player that runs through RetroPie or other frontends with Retropie launch commands. Such as Attract Mode and Pegasus fe installed through RetroPie.
+- R.O.M.P launches movies with joystick support right from RetropPie
 
 # How To Use 
 
@@ -23,12 +23,25 @@ curl -sSL https://bit.ly/3ufYyhg | bash
 
 # How does this work? 
 
-This uses omxplayer and (maybe) qjoypad. 
+This uses omxplayer, retropie setup menu script, and retropie. 
 
-Omx plays videos and qjoy maps a keyboard to controller.
+- Omxplayer plays Movies.
 
-Retropie of course launches the videos.
+- Retropie setup menu script enables joystick support.
+ 
+- Retropie of course launches the videos.
+
 
 # Accepted Video Files 
 
 .mp4 .mpv .avi 
+
+# Troubleshooting 
+
+- Video failed to launch? 
+- 
+    - Remove spaces add - instead. Example rename Superman 2022.mp4 to Superman-2022.mp4
+
+# Credits 
+
+HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would nt be possible without him .
