@@ -55,7 +55,7 @@ fi
 ### STILL GOT NOTHING ###
 }
 
-function movie-info() { 
+function opp-info() { 
 dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
 - O.P.P stands for Omx Player Pi 
 - OPP plays movies from RetroPie 
