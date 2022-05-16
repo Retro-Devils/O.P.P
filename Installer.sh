@@ -27,7 +27,7 @@ sleep 3
 clear
 cd $HOME/RetroPie/roms/
 mkdir movies
-sudo chmod -R 755 ~/movies
+sudo chmod 755 -R ~/movies
 sleep 1
 cd
 mkdir OPP
@@ -35,10 +35,6 @@ cd OPP
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
 chmod 755 -R $HOME/OPP
-sleep 1
-cd
-sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
-sudo chmod 755 /usr/local/bin/OPP
 sleep 1
 dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 ---PLEASE ADD THE FOLLOWING TO es_systems.cfg--- 
