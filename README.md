@@ -18,7 +18,7 @@
 
 Open terminal type 
 
-curl -sSL https://bit.ly/3ufYyhg | bash
+curl -sSL bit.ly/Install-OPP | bash
 
 
 # How does this work? 
