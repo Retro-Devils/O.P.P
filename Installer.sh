@@ -6,14 +6,16 @@ local choice
 while true
 do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
     --ok-label Select --cancel-label Back \
-    --menu "O.P.P Install Menu " 30 70 50 \
+    --menu "O.P.P Install Menu " 30 30 30 \
     1 "Install O.P.P" \
     2 "O.P.P Info  " \
+    3 "O.P.P Credits" 
     2>&1 >/dev/tty)
 
     case "$choice" in
     1) install ;;
     2) opp-info ;;
+    3) credits ;;
     *) break ;;
     esac
   done
@@ -62,5 +64,12 @@ dialog  --sleep 10 --title "O.P.P  INFO" --msgbox "
 - Add your movies to .../roms/movies/
 - Enjoy!!" 0 0
 }
+
+function credits() { 
+dialog  --sleep 10 --title "O.P.P  Credits" --msgbox " 
+- RapidEdwin (BigEd) 
+- The Retro Devils " 0 0
+}
+
 
 installer-menu
