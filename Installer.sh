@@ -9,7 +9,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
     --menu "O.P.P(Omx Player Pi ) Installer Menu " 30 30 30 \
     1 "Install O.P.P" \
     2 "O.P.P Info  " \
-    3 "O.P.P Credits" 
+    3 "O.P.P Credits" \
     2>&1 >/dev/tty)
 
     case "$choice" in
