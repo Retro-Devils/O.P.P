@@ -38,22 +38,21 @@ cd
 sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
 sudo chmod 755 /usr/local/bin/OPP
 sleep 1
-
-#### DEVIL 2 STOPPED HERE ####
-##<command>OPP %ROM%<command>
-sleep 2
-clear
-if [ ! -s "/opt/retropie/configs/all/emulationstation/es_systems.cfg" ]; then sudo rm -f /opt/retropie/configs/all/emulationstation/es_systems.cfg; fi
-if [ ! -f "/opt/retropie/configs/all/emulationstation/es_systems.cfg" ]; then sudo cp /etc/emulationstation/es_systems.cfg /opt/retropie/configs/all/emulationstation/es_systems.cfg; sudo chown pi:pi /opt/retropie/configs/all/emulationstation/es_systems.cfg; else cp -f /opt/retropie/configs/all/emulationstation/es_systems.cfg /opt/retropie/configs/all/emulationstation/es_systems.cfg.old; fi
-CONTENT1="\t<system>\n\t\t<name>Videos</name>\n\t\t<fullname>Videos</fullname>\n\t\t<path>/home/pi/RetroPie/roms/videos</path>\n\t\t<extension>.avi .AVI .mp4 .MP4 .mov .MOV</extension>\n\t\t<command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ video %ROM%</command>\n\t\t<platform>videos</platform>\n\t\t<theme>videos</theme>\n\t</system>"
-C1=$(echo $CONTENT1 | sed 's/\//\\\//g')
-if grep -q Videos "/opt/retropie/configs/all/emulationstation/es_systems.cfg"; then echo "es_systems.cfg entry confirmed"
-else
-	sed "/<\/systemList>/ s/.*/${C1}\n&/" /opt/retropie/configs/all/emulationstation/es_systems.cfg > $HOME/temp
-	cat $HOME/temp > /opt/retropie/configs/all/emulationstation/es_systems.cfg
-	rm -f $HOME/temp
-fi
-### STILL GOT NOTHING ###
+dialog  --sleep 1 --title "POST INSTALL INSTRUCTIONS" --msgbox "
+---PLEASE ADD THE FOLLOWING TO es_systems.cfg--- 
+---Located at /home/pi/.emulationstation/---
+  <system>
+    <name>movies</name>
+    <fullname>Movies</fullname>
+    <path>/home/pi/RetroPie/roms/movies</path>
+    <extension>.mp4 .MP4 .avi .AVI .mkv .MKV</extension>
+    <command>$HOME/OPP/OPP.sh %ROM%</command>
+    <platform>movies</platform>
+    <theme>movies</theme>
+  </system>
+  
+---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
+---ENJOY!!!!!!!!!----" 0 0 
 }
 
 function opp-info() { 
