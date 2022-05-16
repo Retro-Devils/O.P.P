@@ -6,7 +6,7 @@ local choice
 while true
 do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
     --ok-label Select --cancel-label Back \
-    --menu "O.P.P Install Menu " 30 30 30 \
+    --menu "O.P.P(Omx Player Pi ) Installer Menu " 30 30 30 \
     1 "Install O.P.P" \
     2 "O.P.P Info  " \
     3 "O.P.P Credits" 
