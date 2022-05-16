@@ -25,7 +25,7 @@ sleep 3
 clear
 cd $HOME/RetroPie/roms/
 mkdir movies
-sudo chmod -R 777 movies
+sudo chmod -R 755 ~/movies
 sleep 1
 cd
 mkdir OPP
