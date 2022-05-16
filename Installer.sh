@@ -4,7 +4,7 @@ export NCURSES_NO_UTF8_ACS=1
 function installer-menu() {
 local choice
 while true
-do choice=$(dialog --backtitle "$BACKTITLE" --title " Installer" \
+do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
     --ok-label Select --cancel-label Back \
     --menu "O.P.P Install Menu " 30 70 50 \
     1 "Install O.P.P" \
