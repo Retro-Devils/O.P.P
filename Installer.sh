@@ -37,7 +37,7 @@ sleep 1
 cd
 sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
 sudo chmod 755 /usr/local/bin/OPP
-sleep 1
+sleep 10
 dialog  --sleep 1 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 ---PLEASE ADD THE FOLLOWING TO es_systems.cfg--- 
 ---Located at /home/pi/.emulationstation/---
