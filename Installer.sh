@@ -37,8 +37,8 @@ sleep 1
 cd
 sudo cp $HOME/OPP/OPP.sh -f /usr/local/bin/OPP
 sudo chmod 755 /usr/local/bin/OPP
-sleep 10
-dialog  --sleep 1 --title "POST INSTALL INSTRUCTIONS" --msgbox "
+sleep 1
+dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 ---PLEASE ADD THE FOLLOWING TO es_systems.cfg--- 
 ---Located at /home/pi/.emulationstation/---
   <system>
@@ -56,7 +56,7 @@ dialog  --sleep 1 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 }
 
 function opp-info() { 
-dialog  --sleep 1 --title "O.P.P  INFO" --msgbox " 
+dialog  --sleep 10 --title "O.P.P  INFO" --msgbox " 
 - O.P.P stands for Omx Player Pi 
 - O.P.P plays movies from RetroPie 
 - Add your movies to .../roms/movies/
