@@ -51,4 +51,5 @@ HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie pla
 # Changelog
 
 - 1.0 to 1.1
+
         - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
