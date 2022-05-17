@@ -34,7 +34,12 @@ cd
 mkdir OPP
 cd OPP
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
+sleep 2
+echo " Got First File"  
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
+sleep 2
+echo " Got Second File"
+sleep 2
 chmod 755 -R $HOME/OPP
 sleep 1
 dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
