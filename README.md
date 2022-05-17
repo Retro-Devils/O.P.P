@@ -4,7 +4,7 @@
 
 - .O.P.P launches movies with joystick support right from RetropPie
 
-- Current Version------1.1------May 17, 2022
+- Current Version------1.10------May 17, 2022
 
 # How To Use 
 
@@ -70,7 +70,7 @@ HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie pla
 
 # Changelog
 
-- 1.0 to 1.1
+- 1.00 to 1.10
 
         - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
 
