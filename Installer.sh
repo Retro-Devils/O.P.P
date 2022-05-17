@@ -25,8 +25,8 @@ function install() {
 echo "Installing O.P.P Now "
 sleep 3
 if [ -f "$HOME/OPP/OPP.sh" ]; then
+sleep 1
 sudo rm -R "$HOME"/OPP/
-clear
 echo "Removed Old OPP. Getting New One Now"
 cd $HOME/RetroPie/roms/
 mkdir movies
