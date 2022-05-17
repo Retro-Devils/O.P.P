@@ -4,6 +4,8 @@
 
 - .O.P.P launches movies with joystick support right from RetropPie
 
+- Current Version------1.1------May 17, 2022
+
 # How To Use 
 
 1.Run Install Script
