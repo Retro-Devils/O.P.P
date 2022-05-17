@@ -26,12 +26,8 @@ echo "Installing O.P.P Now "
 sleep 3
 if [ -f "$HOME/OPP/OPP.sh" ]; then
 sleep 1
-sudo rm -R "$HOME"/OPP/
-echo "Removed Old OPP. Getting New One Now"
-cd $HOME/RetroPie/roms/
-mkdir movies
-sudo chmod 755 -R movies
-sleep 1
+sudo rm -R $HOME/OPP/
+echo " Removed Old OPP. Getting New One Now "
 cd
 mkdir OPP
 cd OPP
@@ -53,7 +49,8 @@ dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
   </system>
   
 ---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
----ENJOY!!!!!!!!!----" 0 0 
+---ENJOY!!!!!!!!!----" 0 0
+
 else
 clear
 cd $HOME/RetroPie/roms/
@@ -82,6 +79,7 @@ dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
   
 ---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
 ---ENJOY!!!!!!!!!----" 0 0
+
 fi
 }
 
