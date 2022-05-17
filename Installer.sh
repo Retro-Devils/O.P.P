@@ -35,10 +35,13 @@ mkdir OPP
 cd OPP
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
 sleep 2
-echo " Got First File"  
+echo " Got OPP File"  
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
 sleep 2
-echo " Got Second File"
+echo " Got Play File"
+wget https://github.com/Retro-Devils/O.P.P/blob/main/README.md
+sleep 2
+echo " Got README"
 sleep 2
 chmod 755 -R $HOME/OPP
 sleep 1
