@@ -47,3 +47,8 @@ This uses omxplayer, retropie setup menu script, and retropie.
 # Credits 
 
 HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would not be possible without him .
+
+# Changelog
+
+- 1.0 to 1.1
+        - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
