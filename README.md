@@ -12,9 +12,13 @@
 
 2.Put your movies in home/pi/RetroPie/roms/movies/
 
-3.Reload RetroPie
+3. Edit es_systems.cfg
 
-4.Press A on Movies then A on your movie
+4.Reload RetroPie
+
+5.Press A on Movies then A on your movie
+
+6. Enjoy!!
 
 # Install 
 
@@ -41,9 +45,25 @@ This uses omxplayer, retropie setup menu script, and retropie.
 # Troubleshooting 
 
 - Video failed to launch? 
-- 
+ 
     - Remove spaces add - instead. Example rename Superman 2022.mp4 to Superman-2022.mp4
 
+    - Some video files just wont work, due to encoding issues.
+ 
+# FAQ
+
+- Can I add Folders like cartoons, movies ,etc?
+ 
+ YEAP!!
+ 
+- Does boxart and stuff work the same?
+
+ Yes, you will need to copy or copy and edit a gamelist.xml for .../roms/movies. We use the movie itself as snap/preview video works great. 
+ 
+- Can I Scrape the Movies with Scrapper?
+
+  NO. Scrapper is looking for games not movies, all art will have to be be manually added.
+  
 # Credits 
 
 HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would not be possible without him .
@@ -53,3 +73,5 @@ HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie pla
 - 1.0 to 1.1
 
         - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
+
+        - Released few tested misc problems fixed. Mainly typos.  
