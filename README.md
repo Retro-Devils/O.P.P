@@ -63,7 +63,14 @@ This uses omxplayer, retropie setup menu script, and retropie.
 - Can I Scrape the Movies with Scrapper?
 
   NO. Scrapper is looking for games not movies, all art will have to be be manually added.
-  
+
+# TO DO 
+
+- Make a "Play All" button. To play everything in a folder . Example everything ..../roms/movies/cartoons/
+
+- Make a "Stream Videos" Option/Button. choose a internet source and stream video from thier .
+
+
 # Credits 
 
 HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would not be possible without him .
