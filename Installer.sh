@@ -24,7 +24,10 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
 function install() {
 echo "Installing O.P.P Now "
 sleep 3
+if [ -f "$HOME/OPP/OPP.sh" ]; then
+sudo rm -R"$HOME"/OPP/OPP.sh
 clear
+echo "Removed Old OPP. Getting New One Now"
 cd $HOME/RetroPie/roms/
 mkdir movies
 sudo chmod 755 -R movies
@@ -51,6 +54,35 @@ dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
   
 ---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
 ---ENJOY!!!!!!!!!----" 0 0 
+else
+clear
+cd $HOME/RetroPie/roms/
+mkdir movies
+sudo chmod 755 -R movies
+sleep 1
+cd
+mkdir OPP
+cd OPP
+wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/OPP.sh
+wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/play.sh
+chmod 755 -R $HOME/OPP
+sleep 1
+dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
+---PLEASE ADD THE FOLLOWING TO es_systems.cfg--- 
+---Located at /home/pi/.emulationstation/---
+  <system>
+    <name>movies</name>
+    <fullname>Movies</fullname>
+    <path>/home/pi/RetroPie/roms/movies</path>
+    <extension>.mp4 .MP4 .avi .AVI .mkv .MKV</extension>
+    <command>$HOME/OPP/OPP.sh %ROM%</command>
+    <platform>movies</platform>
+    <theme>movies</theme>
+  </system>
+  
+---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
+---ENJOY!!!!!!!!!----" 0 0
+fi
 }
 
 function opp-info() { 
