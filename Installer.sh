@@ -7,7 +7,7 @@ while true
 do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
     --ok-label Select --cancel-label Exit \
     --menu "O.P.P(Omx Player Pi ) Installer Menu " 20 40 20 \
-    1 "Install O.P.P" \
+    1 "Install/Update" \
     2 "O.P.P Info  " \
     3 "O.P.P Credits" \
     2>&1 >/dev/tty)
