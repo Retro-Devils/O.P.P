@@ -10,7 +10,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.11" \
     1 "Install/Update" \
     2 "O.P.P Info  " \
     3 "O.P.P Credits" \
-    4 "Version Check" \
+    4 "Version Checker" \
     2>&1 >/dev/tty)
 
     case "$choice" in
