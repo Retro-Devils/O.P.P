@@ -75,7 +75,7 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 # Credits 
 
-HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie player ) and this would not be possible without him .
+HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated music player ) and this would not be possible without him .
 
 IMP github:
 
