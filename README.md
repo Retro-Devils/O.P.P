@@ -20,7 +20,7 @@
 
 6. Enjoy!!
 
-# Install 
+# Install Script 
 
 Open terminal type 
 
