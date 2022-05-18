@@ -8,17 +8,17 @@
 
 # How To Use 
 
-1.Run Install Script
+1. Run Install Script
 
-2.Put your movies in home/pi/RetroPie/roms/movies/
+2. Put your movies in home/pi/RetroPie/roms/movies/
 
-3.Edit es_systems.cfg
+3. Edit es_systems.cfg
 
-4.Reload RetroPie
+4. Reload RetroPie
 
-5.Press A on Movies then A on your movie
+5. Press A on Movies then A on your movie
 
-6.Enjoy!!
+6. Enjoy!!
 
 # Install 
 
@@ -46,7 +46,8 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 - Video failed to launch? 
  
-    - Remove spaces add - instead. Example rename Superman 2022.mp4 to Superman-2022.mp4
+    - Remove spaces add - instead. 
+        Example rename Superman 2022.mp4 to Superman-2022.mp4
 
     - Some video files just wont work, due to encoding issues.
  
