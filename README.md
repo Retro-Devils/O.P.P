@@ -18,7 +18,7 @@
 
 5.Press A on Movies then A on your movie
 
-6. Enjoy!!
+6.Enjoy!!
 
 # Install 
 
