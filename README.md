@@ -4,7 +4,7 @@
 
 - O.P.P. launches movies with joystick support right from RetropPie
 
-- Current Version------1.10------May 17, 2022
+- Current Version------1.11------May 17, 2022
 
 # How To Use 
 
@@ -72,6 +72,8 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 - Make a "Stream Videos" Option/Button. choose a internet source and stream video from thier .
 
+- 
+
 
 # Credits 
 
@@ -83,4 +85,11 @@ HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie pla
 
         - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
 
-        - Released few tested misc problems fixed. Mainly typos.  
+        - Released few tested misc problems fixed. Mainly typos. 
+
+
+- 1.10 to 1.11
+
+        - Changed to all audio players "support" .
+
+        - Added a launch screen. Located at /home/pi/OPP/splash.mp4   replace if you want .
