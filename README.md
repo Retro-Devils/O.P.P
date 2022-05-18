@@ -46,9 +46,9 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 - Video failed to launch? 
  
-    - Remove spaces add - instead. 
-    
-        Example rename Superman 2022.mp4 to Superman-2022.mp4
+    - Remove spaces add - instead. Example rename 
+     
+      Superman 2022.mp4 to Superman-2022.mp4
 
     - Some video files just wont work, due to encoding issues.
  
