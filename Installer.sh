@@ -4,18 +4,20 @@ export NCURSES_NO_UTF8_ACS=1
 function installer-menu() {
 local choice
 while true
-do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer" \
+do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.11" \
     --ok-label Select --cancel-label Exit \
     --menu "O.P.P(Omx Player Pi ) Installer Menu " 20 40 20 \
     1 "Install/Update" \
     2 "O.P.P Info  " \
     3 "O.P.P Credits" \
+    4 "O.P.P Version Check" \
     2>&1 >/dev/tty)
 
     case "$choice" in
     1) install ;;
     2) opp-info ;;
     3) credits ;;
+    4) vcheck ;;
     *) break ;;
     esac
   done
@@ -41,6 +43,8 @@ sleep 1
 wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/README.md
 sleep 1
 wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/splash.mp4
+sleep 1
+wget https://github.com/Retro-Devils/O.P.P/blob/main/OPP/opp-version.sh
 sleep 1
 chmod 755 -R $HOME/OPP
 sleep 1
@@ -74,6 +78,10 @@ function credits() {
 dialog  --sleep 10 --title "O.P.P  Credits" --msgbox " 
 - RapidEdwin (BigEd) 
 - The Retro Devils " 0 0
+}
+
+function vcheck() {
+bash "$HOME"/pi/OPP/opp-version.sh
 }
 
 
