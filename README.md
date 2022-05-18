@@ -90,6 +90,6 @@ HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated movie pla
 
 - 1.10 to 1.11
 
-        - Changed to all audio players "support" .
+        - Changed to all audio players "support" . Basiclly stop all mpg123 audio before vidoe plays and start when video ends.
 
         - Added a launch screen. Located at /home/pi/OPP/splash.mp4   replace if you want .
