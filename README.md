@@ -70,9 +70,7 @@ This uses omxplayer, retropie setup menu script, and retropie.
 
 - Make a "Play All" button. To play everything in a folder . Example everything ..../roms/movies/cartoons/
 
-- Make a "Stream Videos" Option/Button. choose a internet source and stream video from thier .
-
-- 
+- Make a "Stream Videos" Option/Button. choose a internet source and stream video from thier . 
 
 
 # Credits 
