@@ -54,17 +54,17 @@ This uses omxplayer, retropie setup menu script, and retropie.
  
 # FAQ
 
-- Can I add Folders like cartoons, movies ,etc?
+- *Can I add Folders like cartoons, movies ,etc?*
  
- YEAP!!
+     YEAP!!
  
-- Does boxart and stuff work the same?
+- *Does boxart and stuff work the same?*
 
- Yes, you will need to copy or copy and edit a gamelist.xml for .../roms/movies. We use the movie itself as snap/preview video works great. 
+     Yes, you will need to copy or copy and edit a gamelist.xml for .../roms/movies. We use the movie itself as snap/preview video works great. 
  
-- Can I Scrape the Movies with Scrapper?
+- *Can I Scrape the Movies with Scrapper?*
 
-  NO. Scrapper is looking for games not movies, all art will have to be be manually added.
+     NO. Scrapper is looking for games not movies, all art will have to be be manually added.
 
 # TO DO 
 
