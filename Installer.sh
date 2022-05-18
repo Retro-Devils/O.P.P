@@ -44,7 +44,7 @@ wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/README.md
 sleep 1
 wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/splash.mp4
 sleep 1
-wget https://github.com/Retro-Devils/O.P.P/blob/main/OPP/opp-version.sh
+wget https://raw.githubusercontent.com/Retro-Devils/O.P.P/main/OPP/opp-version.sh
 sleep 1
 chmod 755 -R $HOME/OPP
 sleep 1
