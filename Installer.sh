@@ -81,7 +81,7 @@ dialog  --sleep 10 --title "O.P.P  Credits" --msgbox "
 }
 
 function vcheck() {
-dialog  --sleep 4 --title "OPP VERSION" --msgbox "
+dialog  --sleep 4 --title "VERSION CHECKER" --msgbox "
 --OPP CURRENT VERSION 1.11
 --IT WILL NOW DISPLAY INSTALLED VERSION" 0 0
 bash "$HOME"/pi/OPP/opp-version.sh
