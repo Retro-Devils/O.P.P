@@ -6,7 +6,7 @@ function yt-player() {
       ok-label GO --cancel-label Exit \
       --menu "CLICK GO AND TYPE YOUTUBE URL" 20 40 20 \
       1 " HOW TO USE YT-PLAYER" \
-      2 " TYPE YOUTUBE URL" \
+      2 " ENTER YOUTUBE URL" \
       2>&1 >/dev/tty)
       
      case "$choice" in
@@ -18,7 +18,10 @@ function yt-player() {
 }
 
 function how-to() {
-omxplayer -o alsa "$HOME"/RetroPie/retropiemenu/yt-player/how-to.mp4 
+dialog --sleep 5 --title "HOW TO USE YT PLAYER" --msgbox " 
+----CLICK ENTER YOUTUBE URL
+----TYPE URL WITHOUT YOUTUBE.COM/
+----THATS IT, ENJOY !!!" 0 0 \
 }
 
 function type() {
