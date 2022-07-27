@@ -24,7 +24,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.11" \
 }
 
 function install() {
-sudo rm -R "$HOME"/OPP
+if [ -d "$HOME/OPP" ]; then sudo rm -R "$HOME"/OPP; fi
 echo "Installing O.P.P Now "
 sleep 3
 clear
