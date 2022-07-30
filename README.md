@@ -4,9 +4,9 @@
 
 - O.P.P. launches movies with joystick support right from RetropPie
 
-- Current Version------1.11------May 17, 2022
+- Current Version------1.12------July 30, 2022
 
-# How To Use 
+# How To Use
 
 1. Run Install Script
 
@@ -20,16 +20,16 @@
 
 6. Enjoy!!
 
-# Install Script 
+# Install Script
 
-Open terminal type 
+Open terminal type
 
 curl -sSL bit.ly/Install-OPP | bash
 
 
 # How does this work? 
 
-This uses omxplayer, retropie setup menu script, and retropie. 
+This uses omxplayer, retropie setup menu script, and retropie.
 
 - Omxplayer plays Movies.
 
@@ -38,15 +38,15 @@ This uses omxplayer, retropie setup menu script, and retropie.
 - Retropie of course launches the videos.
 
 
-# Accepted Video Files 
+# Accepted Video Files
 
-.mp4 .mpv .avi 
+.mp4 .mpv .avi
 
-# Troubleshooting 
+# Troubleshooting
 
-- Video failed to launch? 
+- Video failed to launch?
  
-    - Remove spaces add - instead. Example rename 
+    - Remove spaces add - instead. Example rename
      
       Superman 2022.mp4 to Superman-2022.mp4
 
@@ -60,22 +60,22 @@ This uses omxplayer, retropie setup menu script, and retropie.
  
 - *Does boxart and stuff work the same?*
 
-     Yes, you will need to copy or copy and edit a gamelist.xml for .../roms/movies. We use the movie itself as snap/preview video works great. 
+     Yes, you will need to copy or copy and edit a gamelist.xml for .../roms/movies. We use the movie itself as snap/preview video works great.
  
 - *Can I Scrape the Movies with Scrapper?*
 
      NO. Scrapper is looking for games not movies, all art will have to be be manually added.
 
-# TO DO 
+# TO DO
 
 - Make a "Play All" button. To play everything in a folder . Example everything ..../roms/movies/cartoons/
 
-- Make a "Stream Videos" Option/Button. choose a internet source and stream video from thier . 
+- Make a "Stream Videos" Option/Button. choose a internet source and stream video from there.
 
 
-# Credits 
+# Credits
 
-HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated music player ) and this would not be possible without him .
+HUGE HUGE HUGE credit to RapidEdwin on github. He makes IMP(integrated music player ) and this would not be possible without him.
 
 IMP github:
 
@@ -87,11 +87,16 @@ https://github.com/RapidEdwin08/imp
 
         - Added IMP "support". Now when launch a video it will press pause on IMP music. When video ends it will press Play on IMP music.
 
-        - Released few tested misc problems fixed. Mainly typos. 
+        - Released few tested misc problems fixed. Mainly typos.
 
 
 - 1.10 to 1.11
 
         - Changed to all audio players "support" . Basiclly stop all mpg123 audio before vidoe plays and start when video ends.
 
-        - Added a launch screen. Located at /home/pi/OPP/splash.mp4   replace if you want .
+        - Added a launch screen. Located at /home/pi/OPP/splash.mp4   replace if you want.
+
+
+- 1.11 to 1.12
+
+        - Tweaked the Install script for adding movies to the es_systems.cfg.
