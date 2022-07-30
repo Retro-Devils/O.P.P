@@ -28,10 +28,8 @@ if [ -d "$HOME/OPP" ]; then sudo rm -R "$HOME/OPP"; fi
 echo "Installing O.P.P Now "
 sleep 2
 clear
-mkdir $HOME/RetroPie/roms/movies
-chmod 755 -R $HOME/RetroPie/roms/movies
+if [ ! -d "$HOME/RetroPie/roms/movies" ]; then mkdir "$HOME/RetroPie/roms/movies"; chmod 755 -R $HOME/RetroPie/roms/movies; fi
 sleep 1
-
 mkdir $HOME/OPP
 chmod 755 -R $HOME/OPP
 sleep 1
@@ -59,7 +57,8 @@ sleep 2
 dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 ---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
 ---TO CHANGE LAUNCH SCREEN REPLACE /home/pi/OPP/splash.mp4--- 
----RESTART EMULATIONSTATION FOR CHANGES AND ADDITIONS TO TAKE EFFECT---
+---RESTART EMULATIONSTATION FOR CHANGES AND ADDITIONS---
+---TO TAKE EFFECT---
 ---ENJOY!!!!!!!!!----" 0 0
 }
 
