@@ -59,6 +59,7 @@ sleep 2
 dialog  --sleep 10 --title "POST INSTALL INSTRUCTIONS" --msgbox "
 ---ADD YOUR MOVIES TO /home/pi/RetroPie/roms/movies---
 ---TO CHANGE LAUNCH SCREEN REPLACE /home/pi/OPP/splash.mp4--- 
+---RESTART EMULATIONSTATION FOR CHANGES AND ADDITIONS TO TAKE EFFECT---
 ---ENJOY!!!!!!!!!----" 0 0
 }
 
