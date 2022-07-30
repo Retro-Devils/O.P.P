@@ -33,15 +33,15 @@ sleep 1
 mkdir $HOME/OPP
 chmod 755 -R $HOME/OPP
 sleep 1
-wget https://github.com/ALLRiPPED/O.P.P/raw/main/OPP/OPP.sh -P "$HOME/OPP"
+wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/OPP.sh -P "$HOME/OPP"
 sleep 1
-wget https://github.com/ALLRiPPED/O.P.P/raw/main/OPP/play.sh -P "$HOME/OPP"
+wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/play.sh -P "$HOME/OPP"
 sleep 1
-wget https://github.com/ALLRiPPED/O.P.P/raw/main/README.md -P "$HOME/OPP"
+wget https://github.com/Retro-Devils/O.P.P/raw/main/README.md -P "$HOME/OPP"
 sleep 1
-wget https://github.com/ALLRiPPED/O.P.P/raw/main/OPP/splash.mp4 -P "$HOME/OPP"
+wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/splash.mp4 -P "$HOME/OPP"
 sleep 1
-wget https://github.com/ALLRiPPED/O.P.P/raw/main/OPP/opp-version.sh -P "$HOME/OPP"
+wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/opp-version.sh -P "$HOME/OPP"
 sleep 1
 if [ ! -f "$HOME/.emulationstation/es_systems.cfg" ]; then sudo cp -f /etc/emulationstation/es_systems.cfg "$HOME/.emulationstation/"; fi
 sleep 1
