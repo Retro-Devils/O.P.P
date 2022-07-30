@@ -24,11 +24,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.12" \
 }
 
 function install() {
-<<<<<<< Updated upstream
-if [ -d "$HOME/OPP" ]; then sudo rm -R "$HOME"/OPP; fi
-=======
 if [ -d "$HOME/OPP" ]; then sudo rm -R "$HOME/OPP"; fi
->>>>>>> Stashed changes
 echo "Installing O.P.P Now "
 sleep 2
 clear
