@@ -43,7 +43,7 @@ wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/splash.mp4 -P "$HOME/OPP
 sleep 1
 wget https://github.com/Retro-Devils/O.P.P/raw/main/OPP/opp-version.sh -P "$HOME/OPP"
 sleep 1
-chmod 0755 $HOME/OPP/*.sh
+chmod 755 $HOME/OPP/*.sh
 sleep 1
 if [ ! -f "$HOME/.emulationstation/es_systems.cfg" ]; then sudo cp -f /etc/emulationstation/es_systems.cfg "$HOME/.emulationstation/"; fi
 sleep 1
