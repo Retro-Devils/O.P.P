@@ -89,6 +89,7 @@ function credits() {
 dialog  --sleep 10 --title "O.P.P  Credits" --msgbox " 
 - RapidEdwin (BigEd) 
 - The Retro Devils " 0 0
+sleep 2
 }
 
 function vcheck() {
