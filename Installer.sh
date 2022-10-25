@@ -11,6 +11,18 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.12" \
     2 "O.P.P Info  " \
     3 "O.P.P Credits" \
     4 "Version Checker" \
+    - "__________        __                  " \
+    - "\______   \ _____/  |________  ____   " \
+    - " |       _// __ \   __\_  __ \/  _ \  " \
+    - " |    |   \  ___/|  |  |  | \(  <_> ) " \
+    - " |____|_  /\___  >__|  |__|   \____/  " \
+    - "        \/     \/                     " \
+    - "________              .__.__          " \
+    - "\______ \   _______  _|__|  |   ______" \
+    - " |    |  \_/ __ \  \/ /  |  |  /  ___/" \
+    - " |    `   \  ___/\   /|  |  |__\___ \ " \
+    - "/_______  /\___  >\_/ |__|____/____  >" \
+    - "        \/     \/                  \/ " \
     2>&1 >/dev/tty)
 
     case "$choice" in
@@ -18,6 +30,7 @@ do choice=$(dialog --backtitle "$BACKTITLE" --title "O.P.P Installer V--1.12" \
     2) opp-info ;;
     3) credits ;;
     4) vcheck ;;
+    -) no ;;
     *) break ;;
     esac
   done
