@@ -12,8 +12,6 @@
 
 2. Put your movies in home/pi/RetroPie/roms/movies/
 
-3. Edit es_systems.cfg
-
 4. Reload RetroPie
 
 5. Press A on Movies then A on your movie
